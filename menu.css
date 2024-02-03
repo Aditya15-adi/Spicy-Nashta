@@ -1,0 +1,157 @@
+/* x    xxxxxxxxxxxxxxxx     */
+/* navbar */
+nav{
+    background-color:black ;
+    height: 70px;
+    margin-top: -17px;
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: -100px;
+}
+
+li{
+    margin-top: 10px;
+    margin-left: 60px;
+    text-align: center;
+    padding-top: 15px;
+    /* margin: 10px; */
+    color: black;
+    background-color: aliceblue;
+    width: 140px;
+    list-style: none;
+    border-radius: 6%;
+    height: 35px;
+}
+
+.active {
+    color: yellow;
+    font-size: larger;
+    list-style: none;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+   
+    color: aliceblue;
+}
+li:hover{
+    background-color: rgb(21, 4, 72);
+    color: aliceblue;
+}
+#logo{
+    width: 66px;
+    margin-top: -26px;
+    border-radius: 50%;
+}
+
+/* main content */
+.main
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    background-image:url('bi.avif');
+}
+.left
+{
+    /* border: 2px solid black; */
+    width: 15rem;
+    margin-left: 0px;
+    position: initial;
+    /* background-color: rgb(197, 166, 206); */
+    /* background-color: rgb(82, 83, 83); */
+    color: aliceblue;
+
+}
+.center
+{
+    /* border: 2px solid red; */
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
+    background-color: rgb(218, 187, 187);
+    /* background-color: rgb(68, 69, 69); */
+    /* background-image:url('bi.avif'); */
+    color: black;
+    opacity: 0.8;
+   
+}
+.right{
+    /* border: 2px solid grey; */
+    width: 20rem;
+    /* background-color: rgb(76, 76, 76); */
+    color: aliceblue;
+}
+
+/* card */
+.card
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 52rem;
+    padding: 10px;
+    border: 2px solid rgb(209, 169, 169);
+  
+}
+.food
+{
+    opacity: 0.95;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#item
+{
+    border-radius: 8%;
+    width: 265px;
+    height: 165px;
+}
+.description
+{
+    margin-left: 30px;
+    padding-left: 10px;
+    text-align: left;
+}
+#addto
+{
+    margin-left: 230px;
+    margin-top: -7px;
+    margin-bottom: 10px;
+    width: 115px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0.97;
+    background-color: blanchedalmond;
+}
+
+
+#addto:hover
+{
+    background-color: black;
+    color: aliceblue;
+}
+table { border-collapse: collapse; border: 1px solid black;; }
+th, td { border: 1px solid black;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+}
+#tab
+{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 150px;
+    background-color: rgb(31, 86, 135);
+    padding: 10px;
+}
+
